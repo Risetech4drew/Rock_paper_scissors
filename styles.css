@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    font-family: 'Courier New', Courier, monospace;
+    /* color: white; */
+}
+.game{
+    /* background: rgba(255, 255, 255, .3);
+    padding: 20px;
+    border-radius: 5pxs; */
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+}
+
