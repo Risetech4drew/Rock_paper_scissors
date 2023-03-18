@@ -24,4 +24,41 @@
     font-size: 4rem;
     z-index: 2;
 }
-
+/* scor board */
+.scores{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+/* score */
+.c-count,.count{
+    text-align: center;
+    font-size:1.5rem;
+    margin-top: 1rem;
+}
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.rock,.paper,.scissor{
+    padding: 1.25rem;
+    min-width: min-content;
+    font-size: 1.5rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    border: 2px solid #FaFaFa;
+    border-radius: 10px;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 35px 0;
+}
+.active{
+    box-shadow:none;
+    transform:translate(3px 3px);
+}
